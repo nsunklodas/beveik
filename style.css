@@ -1,0 +1,39 @@
+table {
+    width: 1000px;
+    height: 1000px;
+    border: solid 5px ;
+    border-collapse: collapse;
+}
+
+
+
+tr td:nth-child(odd){
+    width: 150px;
+    height: 150px;
+    border: 5px solid red;
+    background: green;
+    box-sizing: border-box;
+}
+
+tr td:nth-child(even){
+    width: 150px;
+    height: 150px;
+    border: 5px solid green;
+    background: red;
+    box-sizing: border-box;`
+}
+
+tr td div:nth-child(odd) {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    background: red;
+}
+
+tr td div:nth-child(even) {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    padding: auto;
+    background: green;
+}
